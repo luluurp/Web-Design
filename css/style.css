@@ -96,6 +96,14 @@ img {
     opacity: 0.03;
   }
   
+footer {
+    height: 18vh;
+    padding-top: 9vh;
+    background-color: #dabfdc;
+    transition-property: background-color, transform;
+    transition-duration: 1s;
+    transform:translateX();}
+
 @media (max-width: 768px) {
 
     header {
@@ -109,24 +117,6 @@ img {
         background-color: white;
     
     }
-
-    img {
-        transition-property: initial;
-        transition-duration: 200ms;
-      }
-      
-      img:hover {
-        opacity: 0.03;
-      }
-      
-    
-    footer {
-        background-color: #dabfdc;
-        color: black;
-        height: 15.90vh;
-    
-    }
-    
 
 
 
